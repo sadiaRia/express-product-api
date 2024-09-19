@@ -1,0 +1,12 @@
+name: ci
+
+on:
+  push:
+
+jobs:
+  hello:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: SayHelloEveryOne
+        run: |
+          echo "Hello World"
